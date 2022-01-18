@@ -34,4 +34,4 @@ GitHub link :
 https://github.com/deluus/Css-portfolio
 
 
-Deployed Repo :
+Deployed Repo :  https://deluus.github.io/updated-portfolio/

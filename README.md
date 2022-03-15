@@ -31,7 +31,7 @@ updates made
 ![portfolioUpdate](https://user-images.githubusercontent.com/91577221/149072869-cfb83466-ee51-46ff-b2ac-a565e5ea6aa5.png)
 
 GitHub link :
-https://github.com/deluus/Css-portfolio
+https://github.com/deluus/proPort
 
 
 Deployed Repo :  https://deluus.github.io/updated-portfolio/

@@ -22,10 +22,13 @@ updates made
 - corrected and added projects with links to working websites
 - created img file and moved all images to file
 - Linked resume 
-- added screenshot of page
+- added screenshot of pages
 - added media queries to page
 - added profile picture/avatar
 - linked github and deployed page
+- pinned new repos in githb and started following a few delvelopers/classmates
+- updated Linkedin profile
+- corrected multiple issues with deployed page and code.
 
  
 ![portfolioUpdate](https://user-images.githubusercontent.com/91577221/149072869-cfb83466-ee51-46ff-b2ac-a565e5ea6aa5.png)

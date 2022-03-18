@@ -1,0 +1,313 @@
+:root {
+    --header-footer-color: #1b1818;
+   }
+   
+   p,
+   figcaption {
+    color: rgb(212, 212, 212);
+   }
+   
+   h1,
+   h2 {
+    color: rgb(219, 86, 92);
+   }
+   
+   header {
+    background-color: var(--header-footer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+   }
+   
+   header h1 {
+    font-family: 'trajan-pro-3';
+    font-size: 2rem;
+    font-weight: 600;
+   }
+   
+   header h2 {
+    padding-bottom: 20px;
+    font-family: 'Trajan-pro-3';
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+   }
+   
+   header li {
+    display: flex;
+    justify-content: center;
+    padding: 3px 70px;
+    /* border-top: 3px solid black; */
+    border-width: 100%;
+   }
+   .links a{
+    text-decoration: none;
+    color: #bcc0c0;
+   }
+   /* .links a :hover {
+    color: #131313;
+   }
+   .linkItem:hover {
+  background-color: #bcc0c0;
+  border-radius: 5%;
+}
+    */
+   main {
+    margin-top: 150px;
+   }
+   
+   main h2 {
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    /* border-bottom: 3px solid black; */
+   }
+   
+   #profile-pic {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid pink;
+    border-radius: 125px;
+    margin-top: 20px;
+   }
+   
+   #about-me {
+    background-color: #5a5757;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   #about-me p {
+    margin: 5rem;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+   }
+   
+   #projects {
+    background-color: #5a5757;
+  
+   }
+   
+   #projects h2 {
+    text-align: center;
+   }
+   
+   #featured-project {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   }
+   
+   #projects ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+   }
+   
+   figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+   }
+   
+   figure img {
+    /* border: 2px solid seagreen; */
+    min-height: 100px;
+    max-height: 120px;
+   }
+   
+   figcaption {
+    padding-bottom: 20px;
+    text-align: center;
+    max-width: 70%;
+   }
+   
+   #contact-me {
+    background-color: #5a5757;
+    display: block;
+    text-align: center;
+   }
+   
+   #contact-me p {
+    padding: 10px 0;
+   }
+   .contact {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-grow: 1;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(219, 86, 92);
+  }
+  
+  .contact a:hover {
+    font-weight: bold;
+    border-bottom: 3px solid white;
+  }
+   
+   .responsive {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   
+   /* footer {
+    background-color: var(--header-footer-color);
+    text-align: center;
+    padding-top: 15px;
+   }
+    */
+   @media screen and (min-width: 1024px) {
+    header {
+     background-color: var(--header-footer-color);
+     display: flex;
+     flex-direction: row;
+     overflow: auto;
+     position: relative;
+     top: auto;
+    }
+   
+    header {
+     justify-content: space-between;
+     align-items: center;
+     align-content: center;
+    }
+   
+    header * {
+     display: flex;
+     flex-direction: row;
+     margin: 0;
+     padding-left: 0;
+     padding-right: 0;
+    }
+   
+    header nav {
+     display: flex;
+     flex-direction: row;
+     padding: 3px 0;
+     border: none;
+     justify-self: end;
+     justify-items: end;
+    }
+   
+    #page-title {
+     flex-direction: column;
+     align-content: center;
+     padding-bottom: 10px;
+     margin-left: 5%;
+    }
+   
+    header li {
+     border: none;
+     font-size: 18px;
+     margin: 0;
+     padding-left: 15px;
+     padding-right: 5px;
+    }
+   
+    header h2 {
+     padding-bottom: 0;
+     align-self: center;
+    }
+   
+    main {
+     margin-top: 0;
+    }
+   
+    main h2 {
+     font-size: 22px;
+    }
+   
+    #about-me p {
+     max-width: 50%;
+     padding-left: 5px;
+     padding-right: 5px;
+     font-size: 18px;
+     border-left-width: 3px;
+     border-right-width: 3px;
+    }
+   
+    section div * {
+     justify-content: center;
+     align-self: center;
+     width: 100%;
+    }
+    section div figure a img {
+     min-width: 75%;
+     min-height: 400px;
+    }
+   
+    #featured-project {
+     display: block;
+     width: 100%;
+     max-width: 400px;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+    }
+   
+    figure img {
+     border: 3px solid seagreen;
+     min-height: 200px;
+     max-height: 300px;
+     min-width: 400px;
+     max-width: 400px;
+    }
+   
+    figcaption {
+     max-width: 35%;
+    }
+    .contact {
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+      flex-grow: 1;
+    }
+    
+    .contact a {
+      text-decoration: none;
+      font-size: 20px;
+      color: rgb(219, 86, 92);
+    }
+    
+    .contact a:hover {
+      font-weight: bold;
+      border-bottom: 3px solid white;
+    }
+   /* .contact{
+      display: flex;
+      flex-direction: row;
+      padding: 3px 0;
+      border: none;
+      justify-self: end;
+      justify-items: end;
+     } */
+   }

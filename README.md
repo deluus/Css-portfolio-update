@@ -30,7 +30,12 @@ updates made
 - updated Linkedin profile
 - corrected multiple issues with deployed page and code.
 
+
 ScreenShot :
+
+<img width="944" alt="updatedPortfolio3 18" src="https://user-images.githubusercontent.com/91577221/159038981-4fca29d4-7f68-47cd-93a6-43c332549be7.png">
+
+
 
 GitHub link : https://github.com/deluus/proPort
 

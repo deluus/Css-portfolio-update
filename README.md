@@ -41,4 +41,4 @@ GitHub link : https://github.com/deluus/proPort
 
 
 
-Deployed Repo :  https://deluus.github.io/updated-portfolio/
+Deployed Repo :  https://deluus.github.io/proPort/

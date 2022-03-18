@@ -30,8 +30,9 @@ updates made
 - updated Linkedin profile
 - corrected multiple issues with deployed page and code.
 
- 
-![portfolioUpdate](https://user-images.githubusercontent.com/91577221/149072869-cfb83466-ee51-46ff-b2ac-a565e5ea6aa5.png)
+ <img width="944" alt="updatedPortfolio3 18" src="https://user-images.githubusercontent.com/91577221/159038315-e7a76460-52c0-4df1-8365-8ccd409e0f1c.png">
+
+
 
 GitHub link :
 https://github.com/deluus/proPort
